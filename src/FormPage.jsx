@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import "./FormPage.css"
+import "./design/FormPage.css"
 
 function FormPage(){
     const[comment, setComment] = useState('')

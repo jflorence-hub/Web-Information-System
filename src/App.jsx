@@ -1,6 +1,6 @@
 import { Routes , Route} from "react-router-dom"
 import { useState } from "react"
-import "./App.css"
+import "./design/App.css"
 import HomePage from "./HomePage"
 import CounterPage from "./CounterPage"
 import FormPage from "./FormPage"

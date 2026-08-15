@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
-import "./CounterPage.css"
+import "./design/CounterPage.css"
 
 function CounterPage(){
     const[count, setCount] = useState(0)
