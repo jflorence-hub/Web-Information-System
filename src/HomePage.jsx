@@ -1,4 +1,23 @@
-/* import {Link} from "react-router-dom"
+import {Link} from "react-router-dom"
+import "./HomePage.css"
+
+function HomePage(){
+    
+    return(
+        <>
+        <div className="navbar">
+        <Link to="/HomePage" class="no-underline" className="nav-btn">Home</Link>
+        <Link to="/CounterPage" class="no-underline" className="nav-btn">Counter</Link>
+        <Link to="/FormPage" class="no-underline" className="nav-btn">Form</Link>
+        </div>
+        <hr />
+        <h1 className="title-home">Home Page</h1>
+        <p className="word">Welcome to our React Router activity!</p>
+        </>
+    )
+}
+export default HomePage
+ /*import {Link} from "react-router-dom"
 
 function Person({name, age, count, setCount}){
     
@@ -18,8 +37,9 @@ function Person({name, age, count, setCount}){
         </>
     )
 }
-export default Person */
-
+export default Person 
+*/
+/*
 import { useState } from "react";
 
 function Person(props){
@@ -34,4 +54,4 @@ function Person(props){
         </>
     )
 }
-export default Person 
+export default Person */

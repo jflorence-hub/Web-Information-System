@@ -1,0 +1,34 @@
+.navbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.nav-btn {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 65px;
+    border-radius: 7px;
+}
+.nav-btn:hover {
+    color: white;
+    background-color: red;
+}
+.nav-btn.active {
+    color: rgb(5, 1, 1);
+    background-color: red;
+}
+.title-home {
+    margin-top: 100px;
+    color: orange;
+    text-align: center;
+    font-size: 70px;
+}
+.word {
+    color: white;
+    text-align: center;
+}

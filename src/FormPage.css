@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.nav-btn {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 65px;
+    border-radius: 7px;
+}
+.nav-btn:hover {
+    color: white;
+    background-color: red;
+}
+.nav-btn.active {
+    color: rgb(5, 1, 1);
+    background-color: red;
+}
+.title-form {
+    color: orange;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 100px;
+}
+.input-text {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 30px;
+}
+.message {
+    margin-top: 60px;
+    color: orange;
+    text-align: center;
+}
+.clear-btn {
+    width: 90px;
+    height: 35px;
+    background-color: orange;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.clear-btn:hover {
+    color: white;
+    background-color: red;
+    
+}
+.user-input {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.clear-prop {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
